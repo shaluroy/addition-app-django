@@ -12,3 +12,5 @@ def addlogic(request):
 	b = request.GET["txtnum2"]
 	c = int(a)+int(b)
 	return render(request,"addition/index.html",{'key':c})
+
+#git demo
